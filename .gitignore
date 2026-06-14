@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.eggs/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+.venv/
+myenv/
+scraping/
+
+# Scrapy
+.scrapy/
+*.ses
+httpcache/
+
+# Data files
+data/*.csv
+data/*.json
+!data/.gitkeep
+!data/job_titles.csv
+
+# Credentials
+.env
+
+# Airflow
+airflow.db
+airflow-webserver.pid
+logs/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
