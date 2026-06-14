@@ -1,0 +1,31 @@
+# Web scraping
+scrapy>=2.11
+scrapy-playwright>=0.0.33
+
+# NLP & ML
+transformers>=4.40
+sentence-transformers>=2.7
+torch>=2.2
+scikit-learn>=1.4
+
+# Data processing
+pandas>=2.2
+numpy>=1.26
+python-dateutil>=2.9
+
+# Geocoding
+geopy>=2.4
+
+# HTML parsing helpers
+w3lib>=2.1
+itemadapter>=0.9
+
+# Database
+sqlalchemy>=2.0
+pymysql>=1.1
+
+# Airflow (core only — install extras separately)
+apache-airflow>=2.9
+
+# Utilities
+python-dotenv>=1.0
